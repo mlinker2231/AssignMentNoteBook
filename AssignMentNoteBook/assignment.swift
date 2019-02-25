@@ -7,4 +7,9 @@
 //
 
 import Foundation
-
+class Assignment {
+    var name:String
+    init(name: String) {
+        self.name = name
+    }
+}
