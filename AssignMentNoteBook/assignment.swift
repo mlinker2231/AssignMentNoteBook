@@ -9,7 +9,9 @@
 import Foundation
 class Assignment {
     var name:String
-    init(name: String) {
+    var note: String
+    init(name: String,note: String) {
         self.name = name
+        self.note = note
     }
 }
